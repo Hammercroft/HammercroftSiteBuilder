@@ -1,0 +1,64 @@
+title: "How to Install Mobile Legends: Bang Bang on Ubuntu"
+description: "A concise step-by-step guide on how to install Mobile Legends: Bang Bang on Waydroid, on Ubuntu. This guide also Involves the installation of Google Apps and LibNDK."
+keywords: Ubuntu, Mobile Legends, MLBB, Waydroid, Gaming, Android on Linux
+canonical: https://hammercroft.nekoweb.org/mlbb-ubuntu-installation-guide.html
+
+# SEO Metadata
+author: Hammercroft
+author_type: Person
+author_url: https://hammercroft.nekoweb.org
+publisher: Hammercroft
+publisher_type: Organization
+publisher_url: https://hammercroft.nekoweb.org
+date_published: 2025-02-28T23:33:10+08:00
+date_modified: 2025-03-01T00:17:13+08:00
+
+# Schema.org & Open Graph
+schema_org_type: Article
+open_graph_type: article
+page_image: https://hammercroft.nekoweb.org/mlbb-ubuntu-screenshot.webp
+site_name: Hammercroft
+article_section: Gaming
+
+# Twitter
+twitter_user: "@hammercroft"
+
+# HTML attributes
+lang: en
+
+end of manifest
+
+<main>
+    <article>
+        <h1>How to Install Mobile Legends: Bang Bang on Ubuntu</h1>
+        
+        <section>
+            <h2>Introduction</h2>
+            <p>This guide will walk you through installing Mobile Legends: Bang Bang on Ubuntu using Waydroid.</p>
+        </section>
+        
+        <section>
+            <h2>Prerequisites</h2>
+            <ul>
+                <li>Ubuntu 20.04 or later</li>
+                <li>Waydroid installed</li>
+                <li>Basic command line knowledge</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>Installation Steps</h2>
+            <ol>
+                <li>Install Waydroid following the official documentation</li>
+                <li>Install Google Apps framework</li>
+                <li>Install LibNDK translation layer</li>
+                <li>Download and install Mobile Legends: Bang Bang</li>
+            </ol>
+        </section>
+        
+        <section>
+            <h2>Conclusion</h2>
+            <p>You should now have Mobile Legends: Bang Bang running on your Ubuntu system!</p>
+        </section>
+    </article>
+</main>
