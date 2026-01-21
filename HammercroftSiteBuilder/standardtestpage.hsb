@@ -1,0 +1,231 @@
+title: "Style Test"
+should_generate_frontmatter: false
+add_to_header:
+  - "<!-- Google Fonts Overpass -->"
+  - | 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Overpass:wght@100..900&display=swap"/>
+    </noscript>
+  - "<!-- global style -->"
+  - |
+   <link rel="stylesheet" href="./stylesheet.css">
+
+end of manifest
+
+<!--$^top-navigator-->
+<div id="content" role="main">
+	<h1>Style Test</h1>
+	<p>This is a style test.</p>
+
+	<h1>H1 — The Quick Brown Fox Jumps Over the Lazy Dog</h1>
+	<h2>H2 — The Quick Brown Fox Jumps Over the Lazy Dog</h2>
+	<h3>H3 — The Quick Brown Fox Jumps Over the Lazy Dog</h3>
+	<h4>H4 — The Quick Brown Fox Jumps Over the Lazy Dog</h4>
+	<h5>H5 — The Quick Brown Fox Jumps Over the Lazy Dog</h5>
+	<h6>H6 — The Quick Brown Fox Jumps Over the Lazy Dog</h6>
+
+	<hr>
+
+	<p>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
+		justo vitae elit sagittis placerat. Aenean in arcu dignissim,
+		euismod nibh ac, tincidunt nisl. Nulla facilisi. Aliquam erat
+		volutpat. Suspendisse potenti. Vestibulum ante ipsum primis in
+		faucibus orci luctus et ultrices posuere cubilia curae; Mauris
+		volutpat, neque id egestas fermentum, augue justo posuere metus,
+		at consequat erat velit sit amet augue. Pellentesque habitant
+		morbi tristique senectus et netus et malesuada fames ac turpis
+		egestas. Integer feugiat porta erat, vitae suscipit arcu aliquet
+		vitae. Vivamus tempus nunc vitae nibh cursus, ut tristique purus
+		tincidunt. Duis varius, ipsum id dapibus laoreet, metus ex
+		feugiat arcu, ac porta sem justo in nulla.
+	</p>
+
+	<p>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
+		justo vitae elit sagittis placerat. Aenean in arcu dignissim,
+		euismod nibh ac, tincidunt nisl. Nulla facilisi. Aliquam erat
+		volutpat. Suspendisse potenti. Vestibulum ante ipsum primis in
+		faucibus orci luctus et ultrices posuere cubilia curae; Mauris
+		volutpat, neque id egestas fermentum, augue justo posuere metus,
+		at consequat erat velit sit amet augue. Pellentesque habitant
+		morbi tristique senectus et netus et malesuada fames ac turpis
+		egestas. Integer feugiat porta erat, vitae suscipit arcu aliquet
+		vitae. Vivamus tempus nunc vitae nibh cursus, ut tristique purus
+		tincidunt. Duis varius, ipsum id dapibus laoreet, metus ex
+		feugiat arcu, ac porta sem justo in nulla.
+	</p>
+
+	<br>
+	<hr>
+
+	<a href="https://hammercroft.neocities.org/giveaway">
+		MLBB DIAMONDS GIVEAWAY (Not a scam)
+	</a>
+
+	<hr>
+	<br>
+
+	<table border="1" cellpadding="6">
+		<thead>
+			<tr>
+				<th>Cheap</th>
+				<th>Fast</th>
+				<th>Good</th>
+				<th>Outcome</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>No</td>
+				<td>Will not be good</td>
+			</tr>
+			<tr>
+				<td>Yes</td>
+				<td>No</td>
+				<td>Yes</td>
+				<td>Will not be fast</td>
+			</tr>
+			<tr>
+				<td>No</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Will not be cheap</td>
+			</tr>
+			<tr>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>Yes</td>
+				<td>You just went and raised the bar</td>
+			</tr>
+		</tbody>
+	</table>
+
+	<div class="compartment">
+		<div class="compartment-label">One Line Text Box, Example</div>
+
+		<label>
+			Enter text to be transfered to /dev/null :
+			<input type="text" id="bitbucket-input">
+		</label>
+		<br>
+		<button onclick="document.getElementById('bitbucket-input').value='';" class="auto-margin-block small-top-margin">
+			Submit
+		</button>
+	</div>
+	<br>
+
+	<div class="compartment">
+		<div class="compartment-label">
+			Multi-Line Text Box, Example
+		</div>
+
+		<textarea id="multi-text" placeholder="Enter text here to display in an alert..." rows="4" class="textarea-no-resize"></textarea>
+		<br>
+		<button onclick="alert(document.getElementById('multi-text').value); document.getElementById('multi-text').value='';" class="auto-margin-block small-top-margin">
+			Submit
+		</button>
+	</div>
+	<br>
+
+	<div class="compartment">
+		<div class="compartment-label">Only one catch.</div>
+		<div>
+			<label>
+				<input type="radio" name="attributes" value="not-cheap">
+				Not Cheap
+			</label>
+		</div>
+		<div>
+			<label>
+				<input type="radio" name="attributes" value="not-fast">
+				Not Fast
+			</label>
+		</div>
+		<div>
+			<label>
+				<input type="radio" name="attributes" value="not-good">
+				Not Good
+			</label>
+		</div>
+	</div>
+
+	<div class="compartment">
+		<div class="compartment-label">How are you?</div>
+
+		<label>
+			<input type="checkbox" id="feature-checkbox">
+			I'm fine, thank you.
+		</label>
+	</div>
+	<br>
+
+	<div class="compartment">
+		<div class="compartment-label">CREDIT CARD #</div>
+		<input type="number" id="numeric-input">
+	</div>
+
+	<div class="compartment">
+		<div class="compartment-label">Gender</div>
+		<select id="dropdown-input">
+			<option value="">Select an option</option>
+			<option value="option1">Straight Male</option>
+			<option value="option2">Straight Female</option>
+			<option value="option3">Other Than Straight</option>
+			<option value="option4">Attack Helicopter</option>
+			<option value="option4">Vegeta</option>
+		</select>
+	</div>
+
+	<div class="compartment">
+		<div class="compartment-label">lucky year</div>
+		<input type="date" id="date-input">
+	</div>
+
+	<hr>
+
+	<p>
+		Why is the background plain??? I made this design for a website
+		made to win SEO stats on SEO testers. The background color was
+		not a concern, hell - the look and feel is not a concern. I did
+		my absolute LEAST to make this look modern. I can never touch my
+		global stylesheet to change the background color.
+	</p>
+
+	However... There is this button.
+	<br>
+
+	<button onclick="document.body.style.backgroundColor='#c1c0f0';">
+		The Button That Changes The Page's Background Color
+	</button>
+
+	<hr>
+
+	<img src="https://safebooru.org//images/111/bb2372ef05a40dc6b8786130e4c4a5bd695cda87.gif" alt="fun gif" style="position: static; bottom: 0; left: 1em; width: 150px; height: 160px; z-index: 9999;">
+
+	<button class="btn" aria-label="H1 test button">
+		<h1>H1 Test</h1>
+	</button>
+	<button class="btn" aria-label="H2 test button">
+		<h2>H2 Test</h2>
+	</button>
+	<button class="btn" aria-label="H3 test button">
+		<h3>H3 Test</h3>
+	</button>
+	<button class="btn" aria-label="H4 test button">
+		<h4>H4 Test</h4>
+	</button>
+	<button class="btn" aria-label="H5 test button">
+		<h5>H5 Test</h5>
+	</button>
+	<button class="btn" aria-label="H6 test button">
+		<h6>H6 Test</h6>
+	</button>
+    <!--$^back-to-top-->
+</div>
+<!--$^footer-->
